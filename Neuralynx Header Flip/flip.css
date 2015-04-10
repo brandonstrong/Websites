@@ -1,0 +1,165 @@
+﻿/* code for links on first flip div*/
+.frontFlipLink{
+	width:240px;
+	height:170;
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+.frontFlipLink>a{
+	padding-left:50px;
+	height:105px;
+	width:190px;
+	float:left;
+	font-size:xx-large;
+	font-family:"Century Gothic";
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+.frontFlipLink>a:hover{
+	color:purple;
+	text-decoration:underline;
+}
+/* code for picture divs on first flip div*/
+.frontFlipPic{
+	height:170px;
+	margin:10px;
+	padding:10px;
+	float:left;
+	width:150px;
+}
+#flipFrontPicOne{
+	background-color:purple;
+}
+
+#flipFrontPicTwo{
+	background-color:blue;
+}
+/* code for links on second flip div*/
+.backFlipLink{
+	width:310px;
+	height:170px;
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+.backFlipLink>a{
+	width:260px;
+	height:120px;
+	padding-top:50px;
+	padding-left:50px;
+	float:left;
+	font-size:xx-large;
+	font-family:"Century Gothic";
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+
+}
+.backFlipLink>a:hover{
+	color:purple;
+	text-decoration:underline;
+}
+/* code for picture divs on second flip div*/
+.backFlipPic{
+	width:310px;
+	height:170px;
+	margin:10px;
+	padding:10px;
+	float:left;
+}
+.backFlipPic>ul>li{
+	width:310px;
+	height:55px;
+	font-size:large;
+	font-family:"Century Gothic";
+}
+.backFlipPic>ul>li>a{
+	text-decoration:none;
+	color:black;
+}
+.backFlipPic>ul>li>a:hover{
+	text-decoration:underline;
+	color:purple;
+}
+
+/* Flip div contanier*/
+.flip3d{
+	width:700px;
+	height:210px;
+	float:left;
+	margin:auto;
+	overflow:hidden;
+}
+/*
+	-webkit- = Chrome
+	-o- = Opera
+	-ms- = Explorer
+	-moz- = Mozilla
+	-----moz not needed for newest Mozilla browser-----
+*/
+
+/*front flip div*/
+.flip3d>#front{
+	position:absolute;
+	
+	-webkit-transform:perspective(600px) rotateX(0deg);
+	-o-transform:perspective(600px) rotateX(0deg);
+	-ms-transform:perspective(600px) rotateX(0deg);
+	transform:perspective(600px) rotateX(0deg);
+	
+	background:#CCCCCC;
+	width:700px;
+	height:210px;
+	border-radius:10px;
+	
+	-webkit-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	transition: -webkit-transform .5s linear 0s;
+	transition: -o-transform .5s linear 0s;
+	transition: -ms-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+/*back flip div*/
+.flip3d>#back{
+	position:absolute;
+	
+	-webkit-transform:perspective(600px) rotateX(180deg);
+	-o-transform:perspective(600px) rotateX(180deg);
+	-ms-transform:perspective(600px) rotateX(180deg);
+	transform:perspective(600px) rotateX(180deg);
+	
+	background:#CCCCCC;
+	width:700px;
+	height:210px;
+	border-radius:10px;
+	
+	-webkit-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	transition: -webkit-transform .5s linear 0s;
+	transition: -o-transform .5s linear 0s;
+	transition: -ms-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+
+}
+/****hover transformations for divs --- may not work well with Jquery script running*/
+/*
+.flip3d:hover >#front{
+	-webkit-transform:perspective(600px) rotateX(-180deg);
+	-o-transform:perspective(600px) rotateX(-180deg);
+	-ms-transform:perspective(600px) rotateX(-180deg);
+	transform:perspective(600px) rotateX(-180deg);
+}
+.flip3d:hover >#back{
+    -webkit-transform:perspective(600px) rotateX(0deg);
+    -o-transform:perspective(600px) rotateX(0deg);
+    -ms-transform:perspective(600px) rotateX(0deg);
+	transform:perspective(600px) rotateX(0deg);	
+}*/

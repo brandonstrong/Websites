@@ -1,0 +1,17 @@
+﻿div.wrapper {
+    width:auto;
+    height:auto;
+    margin:75px auto;
+}
+div.s{
+    width:800px;
+    height:500px;
+    margin:30px auto;
+}
+#slider>img {
+	position:relative;
+    width:110%;
+    height:110%;
+    float:left;
+    display:none;
+}

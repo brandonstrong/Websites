@@ -1,0 +1,88 @@
+﻿/* DROPDOWN MENU DIV																				DROPDOWN*/
+.nav{
+	float:left;
+	width:920px;
+	margin-left:20px;
+	overflow:visible;
+	background-color:#009933;
+	font-family:Michroma,Arial,sans-serif;
+}
+/*DROPDOWN MENU UNORDERED LIST*/
+.nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+/*DROPDOWN MENU LIST ITEMS*/
+.nav>ul>li{
+	line-height:35px;
+	font-size:large;
+	background-color:#009933;
+	position:relative;
+	width:229px;
+	float:left;
+	text-align:center;
+}
+.nav>ul>li:not(:last-child){
+		border-right:1px solid #999999;
+}
+/*SELECT LIST ITEMS THAT HAVE UNORDERED LIST*/
+.nav li ul{
+		visibility:hidden;
+		position:absolute;
+		top:35px;
+		left:0;
+}
+/*DROPDOWN MENU SUB ITEMS*/
+.nav li ul li{
+	line-height:30px;
+	font-family:garmin;
+	text-align:left;
+	padding-left:25px;
+	margin-right:10px;
+	background-color:#009933;
+	border-top:1px solid #999999;
+	width:135px;
+	float:right;
+}
+/*DROPDOWN MENU FUNCTIONALITY CONTROL*/
+.nav li:hover{
+	background-color:#23771A;
+}
+.nav li:hover ul{
+	visibility:visible;
+}
+/*DROPDOWN MENU ANCHOR TAG*/
+.nav a{
+	color:black;
+	text-decoration:none;
+}
+/*SECONDARY CONTENT DIV																				SECONDARY CONTENT*/
+.secondaryContent{
+	width:880px;
+	margin-left:20px;
+	float:left;
+	padding-top:20px;
+}
+/*PICTURE DIV*/
+#picTwo{
+	font-family:Michroma,Arial,sans-serif;
+	color:white;
+	font-weight:bold;
+	float:left;
+	padding-right:20px;
+}
+#picTwo>img{
+	background-color:blue;
+	width:240px;
+	height:240px;
+	
+}
+/*BIO DIV*/
+#bio{
+	font-family:"Century Gothic";
+	margin:0px 0px 20px 20px;
+	float:right;
+	text-align:left;
+	width:600px;
+}

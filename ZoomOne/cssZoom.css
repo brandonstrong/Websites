@@ -1,0 +1,14 @@
+﻿.wrapper{
+    margin:auto;
+    width:800px;
+    height:700px;
+    overflow:hidden;
+}
+#zoom{
+    background-image:url('Scribbler_1%20edit.png');
+    background-repeat:no-repeat;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+

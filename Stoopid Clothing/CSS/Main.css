@@ -1,0 +1,190 @@
+﻿body{
+	background: linear-gradient(blue, orange);
+	background-repeat:no-repeat;
+	background-size:100% 110%;
+}
+div.wrapper{
+	background-image:url('../Pictures/background.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-left:auto;
+	margin-right:auto;	
+	width:960px;
+	height:auto;
+	min-height:790px;
+	overflow:auto;
+}
+/* HEADER																						 HEADER*/
+div.header{
+	background-image:url('../Pictures/Header1.JPG');
+	background-repeat:no-repeat;
+	float:left;
+	margin:10px 20px 20px 20px;
+	background-size:100% 100%;
+	width:920px;
+	height:200px;
+}
+/* NEWS DIV 																					  NEWS*/
+.news{
+	padding:0px 20px 20px 20px;
+	border-radius:10px;
+	height:auto;
+	width:240px;
+	margin:0px 20px 20px 20px;
+	float:left;
+	background-color:#FF6600;
+}
+/* HEADER FOR NEWS DIV*/
+.news>h2{
+	font-family:Michroma,Arial,sans-serif;
+	color:#333333;
+}
+/* UPDATES CSS*/
+.news>#update{
+	margin-left:10px;
+}
+/* UPDATES HEADER*/
+.news>#update>h3{
+	font-family:Michroma,Arial,sans-serif;
+}
+/* UPDATES PARAGRAPH*/
+.news>#update>p{
+	font-family:garmin;
+	padding-left:5px;
+	border-left:thin gray inset;
+}
+/* MENU DIV -- NEXT SEVERAL ELEMENTS ARE RELATED TO MENU									    	MENU*/
+.menu{
+	border-radius:10px;
+	width:620px;
+	margin:0px 20px 20px 0px;
+	height:150px;
+	background-color:#009933;
+	float:left;
+}
+/*MENU LINKS*/
+.menu a{
+	text-decoration:none;
+	color:black;
+}
+.menu a:hover{
+	color:purple;
+}
+/* TABLE FOR MENU DIV */
+.menuTable{
+	position:relative;
+	float:left;
+	width:600px;
+	margin:0px 10px 0px 10px;
+	height:150px;
+}
+/* TOP ROW OF MENU TABLE, NO LINKS ONLY HEADERS*										TOP*/
+#top{
+	position:absolute;
+	height:25%;
+}
+/* SET CSS FOR ALL TD OF TOP ROW*/
+#top>*{
+	font-family:Michroma,Arial,sans-serif;
+	font-size:large;
+	padding-left:10px;
+	width:150px;
+}
+/* BOTTOM ROW OF MENU TABLE, CONTAINS UNORDERED LIST WITH LINK ELEMENTS					BOTTOM*/
+#sub{
+	height:75%;
+}
+/* SET CSS FOR ALL TD OF BOTTOM ROW*/
+#sub>td{
+	vertical-align:text-top;
+	width:150px;
+}
+/* SET UNORDERED LIST CSS FOR UNORDERED LIST IN BOTTOM ROW*/
+#sub>td>ul{
+	padding-left:20px;
+}
+/* SET CSS FOR ALL LIST ELEMENTS IN MENU*/
+#sub>td>ul>li{
+	list-style-type:none;
+	font-family:garmin;
+}
+/* CONTENT DIV                                                                                       CONTENT*/
+.content{
+	background-color:aqua;
+	border-radius:10px;
+	padding-left:1px;
+	width:619px;
+	height:auto;
+	min-height:275px;
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+/*	CONTENT CONTAINER DIV*/
+#sell{
+	float:left;
+	padding:10px;
+	width:185px;
+	height:255px;
+}
+/* CONTENT CELL PICTURE DIV*/
+#pic{
+	width:185px;
+	height:185px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+/* CONTENT INFORMATION DIV*/
+#element{
+	padding: 4px 5px 10px 5px;
+	background:#12B827;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	width:175px;
+	height:55px;
+}
+/* CONTENT INFORMATION DIV PARAGRAPHS*/
+#element>p{
+	line-height:30px;
+	float:left;
+	margin:3px;
+	font-size:large;
+	font-family:Calibri;
+}
+/*BUY NOW TAG*/
+#now{
+	float:right;
+	font-family:garmin;
+	padding:7px 10px 0px 0px;
+	color:blue;
+}
+/*COLOR TABLE DIV CONTROL*/
+#small{
+	font-family:Calibri;
+	font-size:medium;
+	float:left;
+	width:175px;
+	height:auto;
+}
+/* COLOR TABLE CONTROL*/
+#mini{
+	width:auto;
+	height:15px;
+	float:right;
+}
+/* COLOR TABLE CELL CONTROL*/
+#mini td{
+	border-radius:6px;
+	width:12px;
+	height:12px;
+}
+/*HOME BUTTON DIV*/
+#home{
+	background-image:url('../Pictures/home.jpg');
+	background-size:100% 100%;
+	width:50px;
+	height:50px;
+	float:right;
+	margin:125px 30px 0px 0px;
+}

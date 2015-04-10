@@ -1,0 +1,22 @@
+﻿/*CONTENT FOR SUB PAGES														SUB CONTENT*/
+.content{
+	margin:30px 0px 0px 175px;
+	background-color:transparent;
+}
+/*HEADER FOR CONTENT IN SUB PAGES*/
+.content>h2{
+	font-family:Michroma,Arial,sans-serif;
+	margin-bottom: 20px;
+	padding-top:30px;
+}
+/*PARAGRAPH FOR CONTENT IN SUB PAGES*/
+.content>p{
+	margin-left:20px;
+	font-family:"Century Gothic";
+	font-size:medium;
+}
+/*CONTROL CONTENT FOR CONTACTUS PAGE*/
+#contactus{
+	text-align:center;
+	margin-top:40px;
+}

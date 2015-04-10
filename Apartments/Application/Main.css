@@ -1,0 +1,66 @@
+﻿::-webkit-scrollbar { 
+    display: none; 
+}
+::-moz-scrollbar { 
+    display: none; 
+}
+::-o-scrollbar { 
+    display: none; 
+}
+::-ms-scrollbar { 
+    display: none; 
+}
+html{
+	height:100%;
+	overflow: scroll;
+}
+body{
+	background-image:url('background.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+a.options, a.home{
+	text-decoration:underline;
+	color:blue;
+	cursor:pointer;
+}
+div.opt{
+	margin-top:30px;
+	font-family:Verdana, Verdana, Geneva, sans-serif;
+	padding:1% 15% 10% 15%;
+}
+#opt{
+	width:200px;
+	height: 30px;
+}
+div.content {
+	font-family:Verdana, Verdana, Geneva, sans-serif;
+	border-radius:15px;
+	height: auto;
+	width: 70%;
+	text-align:center;
+	background: rgba(225, 225, 225, 0.8);
+	margin:5% 15% 0% 15%;
+	padding: 6% 0% 5% 0%;
+}
+table.instruction{
+	float:left;
+	margin:0% 15% 5% 15%;
+	width:70%;
+	height:auto;
+}
+div.buy{
+	margin-top:20px;
+	margin:auto;
+	height:auto;
+	width:auto;
+}
+#headOne{
+	width:auto;
+	height:auto;
+	margin:auto;
+	font-family:Verdana, Verdana, Geneva, sans-serif;
+}
+
